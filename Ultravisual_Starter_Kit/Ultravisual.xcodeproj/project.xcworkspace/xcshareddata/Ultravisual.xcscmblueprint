@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "FBD9085F46D4B60FE85FEE1DE5FB1A15ACFDC9E8",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "398960004E2E9E3845BAAC815CD70B901EBE8343" : 0,
+    "FBD9085F46D4B60FE85FEE1DE5FB1A15ACFDC9E8" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "5232D805-7B92-407E-A3F9-5C2FCF688631",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "398960004E2E9E3845BAAC815CD70B901EBE8343" : "",
+    "FBD9085F46D4B60FE85FEE1DE5FB1A15ACFDC9E8" : "Ultravisual"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Ultravisual",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Ultravisual.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/bakeddean\/ray_wenderlich.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "398960004E2E9E3845BAAC815CD70B901EBE8343"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/micpringle\/Ultravisual.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "FBD9085F46D4B60FE85FEE1DE5FB1A15ACFDC9E8"
+    }
+  ]
+}
