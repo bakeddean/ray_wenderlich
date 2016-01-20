@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="14F1505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Gi5-eq-qj2">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <scenes>
+        <!--Inspirations View Controller-->
+        <scene sceneID="GAb-ki-uCL">
+            <objects>
+                <collectionViewController id="Gi5-eq-qj2" customClass="InspirationsViewController" customModule="Ultravisual" customModuleProvider="target" sceneMemberID="viewController">
+                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="tNe-IU-296">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <collectionViewLayout key="collectionViewLayout" id="vih-jh-oNQ" customClass="UltravisualLayout" customModule="Ultravisual" customModuleProvider="target"/>
+                        <cells>
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="InspirationCell" id="n3U-hs-Bjw" customClass="InspirationCell" customModule="Ultravisual" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="200" height="200"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                    <rect key="frame" x="0.0" y="0.0" width="200" height="200"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="xqx-1b-lRC">
+                                            <rect key="frame" x="0.0" y="-40" width="200" height="280"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="280" id="QbR-J1-rtI"/>
+                                            </constraints>
+                                        </imageView>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="j33-lu-C91">
+                                            <rect key="frame" x="0.0" y="0.0" width="200" height="200"/>
+                                            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        </view>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Inspiration" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rvg-wY-yLm">
+                                            <rect key="frame" x="0.0" y="74" width="200" height="52"/>
+                                            <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="38"/>
+                                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Time, Room" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qOW-n0-oxZ">
+                                            <rect key="frame" x="0.0" y="126" width="200" height="24"/>
+                                            <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="17"/>
+                                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Speaker" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A8g-Xm-veB">
+                                            <rect key="frame" x="0.0" y="150" width="200" height="24"/>
+                                            <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="17"/>
+                                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </view>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="j33-lu-C91" secondAttribute="trailing" id="44t-kD-XT2"/>
+                                    <constraint firstItem="j33-lu-C91" firstAttribute="leading" secondItem="n3U-hs-Bjw" secondAttribute="leading" id="DpU-7h-VfI"/>
+                                    <constraint firstItem="xqx-1b-lRC" firstAttribute="leading" secondItem="n3U-hs-Bjw" secondAttribute="leading" id="EzH-Tc-wyW"/>
+                                    <constraint firstItem="A8g-Xm-veB" firstAttribute="top" secondItem="qOW-n0-oxZ" secondAttribute="bottom" id="FPN-TQ-NsC"/>
+                                    <constraint firstItem="Rvg-wY-yLm" firstAttribute="leading" secondItem="n3U-hs-Bjw" secondAttribute="leading" id="I9L-r0-IBN"/>
+                                    <constraint firstAttribute="trailing" secondItem="A8g-Xm-veB" secondAttribute="trailing" id="Ptf-AN-WhK"/>
+                                    <constraint firstAttribute="trailing" secondItem="xqx-1b-lRC" secondAttribute="trailing" id="WPb-1R-ANF"/>
+                                    <constraint firstItem="Rvg-wY-yLm" firstAttribute="centerY" secondItem="n3U-hs-Bjw" secondAttribute="centerY" id="Wit-2m-eyx"/>
+                                    <constraint firstItem="A8g-Xm-veB" firstAttribute="leading" secondItem="n3U-hs-Bjw" secondAttribute="leading" id="ZZ8-ih-FLi"/>
+                                    <constraint firstAttribute="trailing" secondItem="Rvg-wY-yLm" secondAttribute="trailing" id="dee-fy-5hc"/>
+                                    <constraint firstItem="qOW-n0-oxZ" firstAttribute="top" secondItem="Rvg-wY-yLm" secondAttribute="bottom" id="fzg-0D-sTl"/>
+                                    <constraint firstAttribute="bottom" secondItem="j33-lu-C91" secondAttribute="bottom" id="gQj-dp-Mep"/>
+                                    <constraint firstAttribute="trailing" secondItem="qOW-n0-oxZ" secondAttribute="trailing" id="kGN-z9-sQs"/>
+                                    <constraint firstItem="j33-lu-C91" firstAttribute="top" secondItem="n3U-hs-Bjw" secondAttribute="top" id="mLe-Ky-zh9"/>
+                                    <constraint firstItem="xqx-1b-lRC" firstAttribute="centerY" secondItem="n3U-hs-Bjw" secondAttribute="centerY" id="q0J-5e-qyi"/>
+                                    <constraint firstItem="qOW-n0-oxZ" firstAttribute="leading" secondItem="n3U-hs-Bjw" secondAttribute="leading" id="thC-rv-CWF"/>
+                                </constraints>
+                                <size key="customSize" width="200" height="200"/>
+                                <connections>
+                                    <outlet property="imageCoverView" destination="j33-lu-C91" id="rhq-i8-Bd3"/>
+                                    <outlet property="imageView" destination="xqx-1b-lRC" id="GU7-jd-Mua"/>
+                                    <outlet property="speakerLabel" destination="A8g-Xm-veB" id="yJv-Uj-rfs"/>
+                                    <outlet property="timeAndRoomLabel" destination="qOW-n0-oxZ" id="ltA-oD-ncA"/>
+                                    <outlet property="titleLabel" destination="Rvg-wY-yLm" id="scv-dK-5Mz"/>
+                                </connections>
+                            </collectionViewCell>
+                        </cells>
+                        <connections>
+                            <outlet property="dataSource" destination="Gi5-eq-qj2" id="3ch-Hp-kRG"/>
+                            <outlet property="delegate" destination="Gi5-eq-qj2" id="xW1-B0-dmE"/>
+                        </connections>
+                    </collectionView>
+                </collectionViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="K9E-Uw-G83" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="544" y="432"/>
+        </scene>
+    </scenes>
+</document>
